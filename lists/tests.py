@@ -1,5 +1,7 @@
 from django.test import TestCase
 from lists.views import home_page
+from lists.models import Item
+
 
 class HomePageTest(TestCase):
 
