@@ -25,7 +25,7 @@ SECRET_KEY = 'hcmlrir0wiixddkjm+z=i=)tiqis@9(zzy@tv03by25lw7l9se'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['chema.danielcastro.solutions']
 
 
 # Application definition
