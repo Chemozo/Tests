@@ -16,7 +16,7 @@ class ItemFormTest(TestCase):
         self.assertFalse(form.is_valid())
         self.assertEqual(form.errors['text'], [EMPTY_ITEM_ERROR])
 
-        
-        # def test_form_renders_item_text_input(self):
+
+        # def test_form_renders_text_input(self):
         #     form = ItemForm()
         #     self.fail(form.as_p())
