@@ -1,9 +1,10 @@
+import os
+import poplib
+import re
+import time
+
 from django.core import mail
 from selenium.webdriver.common.keys import Keys
-import re
-import poplib
-import time
-import os
 
 from .base import FunctionalTest
 
